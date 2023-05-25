@@ -1,15 +1,106 @@
 <!DOCTYPE html>
-<html lang="en" lang="en>
-
+<html>
 <head>
-
+	<title>Mashup DSGN</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/style/index.css">
 </head>
 
 <body>
-    <p1> Hello World! </p1>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-left">
 
+		<!-- Logo -->
+		<a class="navbar-brand" href="#"></a>
+
+		<!-- Links -->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#gallery">Portfólio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#about">Sobre</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#plans">Planos</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">Contato</a>
+			</li>
+		</ul>
+	</nav>
+
+
+	<!--  section -->
+	<section class="hero fullscrean">
+		<h1>MASHUP DSGN</h1>
+	</section>
+
+	<!-- Portfolio  -->
+	<section class="gallery">
+		<img src=images/pic01.jpg>
+		<img src=images/pic02.jpg>
+		<img src=images/pic03.jpg>
+		<img src=images/pic04.jpg>
+		<img src=images/pic05.jpg>
+		<img src=images/pic01.jpg>
+        <img src=images/pic01.jpg>
+		<img src=images/pic02.jpg>
+		<img src=images/pic03.jpg>
+		<img src=images/pic04.jpg>
+		<img src=images/pic05.jpg>
+		<img src=images/pic01.jpg>
+	</section>
+
+	<!-- About Me -->
+    <section id = "about">
+        <div class="container">
+            <h2 class="text-center mb-5">Sobre mim</h2>
+            <p>Com mais de 15 anos de experiência na operação de layouts de design criativo, sou um profissional qualificado na área de Publicidade e Propaganda, com um MBA em Marketing Digital. Além disso, possuo conhecimentos em Web design, experiência do usuário (UI / UX) e gerenciamento de mídias sociais. </p>
+            <p> Durante minha carreira, trabalhei em diversas empresas no segmento gráfico, incluindo gráficas expressas, comunicação visual, agência de publicidade, marketing e departamento de fotografia. Essa experiência diversificada me permitiu desenvolver habilidades valiosas e trazer soluções inovadoras para os negócios dos meus clientes.</p>
+            <p>Sou um especialista em desenvolvimento de marcas e identidades visuais, e estou sempre atualizado com as últimas tendências e tecnologias do mercado. Se você busca um profissional experiente e qualificado para melhorar a imagem da sua empresa, estou à disposição para ajudá-lo.</p>
+        </div>
+    </section>
+
+
+	<!-- Questions -->
+    <section id="faq">
+
+    </section>
+
+	<!-- Plans -->
+    <section id="plans">
+
+    </section>
+
+	<!-- Contact Me -->
+    <section id="contact" class="bg-light py-5 bg">
+        <div class="container">
+            <h2 class="text-center mb-5">Contato</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
 
 </body>
-
-
 </html>
