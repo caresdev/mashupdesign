@@ -1,4 +1,14 @@
-/* Hero section */
+body{
+    background-color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: #000000;
+}
+
+
+/* Carousel */
 .hero {
     background-color: #000000;
     background-image: url("hero.jpg");
@@ -6,6 +16,7 @@
     height: 500px;
     position: relative;
 }
+
 .hero h1 {
     color: white;
     position: absolute;
@@ -17,6 +28,8 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px #000000;
 }
+
+
 
 /* Gallery image section */
 .gallery {
