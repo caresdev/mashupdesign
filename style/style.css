@@ -9,6 +9,29 @@ nav{
 
 
 /* Carousel */
+.carousel-item, .carousel-item img{
+    height: 100vh;
+}
+
+.carousel-item img{
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-item, .carousel-item img{
+        height: 80vh;
+        object-fit: contain;
+    }
+}
+
+
+
+
+
+
+
+
+
 .hero {
     background-color: #000000;
     background-image: url("hero.jpg");
