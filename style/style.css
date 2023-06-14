@@ -2,6 +2,17 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Navigation */
+.nav-link{
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+    border-color: #d07fe7;
+}
+
+.hover{
+    border-color: #bf22ea;
+}
+
 
 /* Carousel */
 .c-container{
@@ -19,9 +30,11 @@ body{
 
 }
 
-.portfolio-img{
+.branding-img{
     width: 300px;
     height: 300px;
+    object-fit: contain;
+    object-position: center;
 }
 
 
