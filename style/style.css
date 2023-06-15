@@ -39,31 +39,64 @@ body{
 
 
 /* Wrapper */
-#wrapper{
+#wrapper {
+	padding-top: 10em;
+	margin: 20em 10em 10em 10em;
 
+}
+
+.wrapper{
+	padding: 10em 5em 10em 5em !important;
 }
 
 
 
-
 /* Portfolio Section */
-.branding-img{
-    width: 300px;
-    height: 300px;
+
+.portfolio-img, .portfolio-img-container{
+    width: 350px;
+    height: 350px;
     object-fit: contain;
     object-position: center;
 }
 
 
 
+/* About Section */
+
+
+
+
+
+/* FAQ Section */
+.steps{
+	width: 100%;
+	max-width: 150px; /* adjust to your desired max-width */
+	object-fit: cover;
+}
 
 
 
 
 
 
+/* Floating Whatsapp */
+.whatsapp{
+	position: fixed; 
+	bottom: 0; 
+	right: 0;
+	margin-bottom: 40px;
+	margin-right: 40px;
+}
 
 
+.whats-img{
+	width: 12%;
+	height: 12%;
+	background-color: transparent;
+	float: inline-end;
+
+}
 
 /* Gallery image section */
 .gallery {
