@@ -2,16 +2,29 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 /* Navigation */
 .nav-link{
     border-bottom-style: solid;
     border-bottom-width: 0.1em;
-    border-color: #d07fe7;
+    border-bottom-color: #bf22ea;
 }
 
-.hover{
-    border-color: #bf22ea;
+.nav-link:hover{
+    border-bottom-color: #d07fe7;
 }
+
+.navbar-nav .nav-link {
+	
+}
+
+.logo-img {
+    width: 50px;
+    max-width: 100%;
+    height: auto;
+	object-fit: contain;
+}
+
 
 
 /* Carousel */
@@ -30,6 +43,10 @@ body{
 
 }
 
+
+
+
+/* Portfolio Section */
 .branding-img{
     width: 300px;
     height: 300px;
@@ -42,25 +59,9 @@ body{
 
 
 
-.hero {
-    background-color: #000000;
-    background-image: url("hero.jpg");
-    background-size: cover;
-    height: 32rem;
-    position: relative;
-}
 
-.hero h1 {
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px #000000;
-}
+
+
 
 
 
