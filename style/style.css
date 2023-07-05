@@ -14,10 +14,6 @@ body{
     border-bottom-color: #d07fe7;
 }
 
-.navbar-nav .nav-link {
-	
-}
-
 .logo-img {
     width: 50px;
     max-width: 100%;
@@ -97,6 +93,7 @@ body{
 	float: inline-end;
 
 }
+
 
 /* Gallery image section */
 .gallery {
