@@ -50,10 +50,15 @@ body{
 /* Portfolio Section */
 
 .portfolio-img, .portfolio-img-container{
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     object-fit: contain;
     object-position: center;
+}
+
+
+.btn{
+    background-color: #bf22ea;
 }
 
 
@@ -84,8 +89,8 @@ body{
 
 
 .whats-img{
-	width: 4em;
-	height: 4em;
+	width: 3em;
+	height: 3em;
 	background-color: transparent;
 	float: inline-end;
 
