@@ -2,8 +2,8 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-section {
-    margin-bottom: 10em;
+section{
+    margin-top: 10em;
 }
 
 
@@ -40,7 +40,6 @@ section {
 
 /* Wrapper */
 #wrapper {
-	padding-top: 10em;
 	margin: 20em 10em 10em 10em;
 
 }
@@ -53,7 +52,7 @@ section {
 
 /* Portfolio Section */
 
-.portfolio-img, .portfolio-img-container{
+.portfolio-img, .portfolio-img-container, .profile-picture {
     width: 270px;
     height: 270px;
     object-fit: contain;
@@ -65,6 +64,14 @@ section {
     background-color: #bf22ea;
 }
 
+
+@media (max-width: 768px) {
+    section#portfolio .row {
+        width: auto !important;
+        max-width: none !important;
+        text-align: center !important;
+    }
+}
 
 
 /* About Section */
