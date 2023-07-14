@@ -3,7 +3,7 @@ body{
 }
 
 section{
-    margin-top: 10em;
+    margin-top: 15em;
 }
 
 
@@ -40,23 +40,40 @@ section{
 
 /* Wrapper */
 #wrapper {
-	margin: 20em 10em 10em 10em;
-
-}
-
-.wrapper{
-	padding: 10em 5em 10em 5em !important;
+	margin: 10em;
 }
 
 
 
 /* Portfolio Section */
 
-.portfolio-img, .portfolio-img-container, .profile-picture {
+.portfolio-img, .portfolio-img-container{
     width: 270px;
     height: 270px;
     object-fit: contain;
     object-position: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .portfolio-img, .portfolio-img-container{
+        width: 320px;
+        height: 320px;
+    } 
+}
+
+
+@media screen and (min-width: 1600px) {
+    .portfolio-img, .portfolio-img-container{
+        width: 450px;
+        height: 450px;
+    } 
+}
+
+@media screen and (min-width: 2000px) {
+    .portfolio-img, .portfolio-img-container{
+        width: 500px;
+        height: 500px;
+    } 
 }
 
 
@@ -65,7 +82,7 @@ section{
 }
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     section#portfolio .row {
         width: auto !important;
         max-width: none !important;
@@ -73,10 +90,49 @@ section{
     }
 }
 
+section#portfolio .row{
+    margin-top: 8em;
+}
+
 
 /* About Section */
 
+@media screen and (min-width: 570px){
+    .profile-picture{
+        width: 270px;
+        height: 270px;
+        object-position: center;
+    }
+}
 
+@media screen and (min-width: 1000px) {
+    .profile-picture{
+        width: 420px;
+        height: 420px;
+    } 
+}
+
+@media screen and (min-width: 1200px) {
+    .profile-picture{
+        width: 500px;
+        height: 500px;
+    } 
+}
+
+@media screen and (min-width: 1600px) {
+    .profile-picture{
+        width: 600px;
+        height: 600px;
+    } 
+}
+
+@media screen and (min-width: 2000px) {
+    .profile-picture{
+        margin: 0%;
+        width: 800px;
+        height: 800px;
+    } 
+}
 
 
 
