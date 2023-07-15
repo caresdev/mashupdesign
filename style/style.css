@@ -121,10 +121,10 @@ section#portfolio .row{
 
 
 
-/* FAQ Section */
+/* Guide Section */
 .steps{
 	width: 100%;
-	max-width: 150px; /* adjust to your desired max-width */
+	max-width: 150px;
 	object-fit: cover;
 }
 
