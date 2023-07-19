@@ -177,8 +177,10 @@ section#portfolio .row{
     }
 }
 
-
-
+.gradient-test{
+    background: rgb(246,13,255);
+    background: linear-gradient(60deg, rgba(246,13,255,1) 12%, rgba(191,34,234,1) 48%, rgba(126,3,184,1) 86%);
+}
 
 /* Floating Whatsapp */
 .whatsapp{
