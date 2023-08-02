@@ -6,12 +6,6 @@ p{
     color: #d9d9d9;
 }
 
-section{
-    margin-top: 8em;
-}
-
-
-
 
 /* Wrapper 
 #wrapper {
@@ -51,7 +45,6 @@ section{
 
 
 /* Portfolio Section */
-
 .btn{
     background: #d025ff;
 }
@@ -60,17 +53,56 @@ section{
     background: #9418b6;
 }
 
-section#portfolio .row{
-    margin-top: 8em;
+section{
+    margin-bottom: 10em;
+    padding: 3em;
 }
 
+section#portfolio .row{
+    margin: 7em 1em 1em 1em;
+}
+
+@media screen and (max-width: 768px) {
+    section#portfolio .row {
+        width: auto !important;
+        max-width: none !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section{
+        margin-bottom: 10em;
+    }
+
+    section#portfolio .row{
+        margin-top: 10em;
+    }
+}
+
+
 .portfolio-img, .portfolio-img-container{
-    width: 250px;
-    height: 250px;
+    width: 160px;
+    height: 160px;
     object-fit: contain;
     object-position: center;
 }
 
+@media screen and (min-width: 320px) {
+    .portfolio-img, .portfolio-img-container{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .portfolio-img, .portfolio-img-container{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
+    }
+}
 
 @media screen and (min-width: 1200px) {
     .portfolio-img, .portfolio-img-container{
@@ -86,24 +118,24 @@ section#portfolio .row{
     } 
 }
 
-@media screen and (max-width: 768px) {
-    section#portfolio .row {
-        width: auto !important;
-        max-width: none !important;
-        text-align: center !important;
-    }
-}
-
 
 
 
 /* About Section */
 .profile-picture{
-    width: 260px;
-    height: 260px;
+    width: 160px;
+    height: 160px;
     object-position: center;
     object-fit: cover;
 }
+
+@media screen and (min-width: 320px) {
+    .profile-picture{
+        width: 220px;
+        height: 220px;
+    }
+}
+
 
 @media screen and (min-width: 600px) {
     .profile-picture{
