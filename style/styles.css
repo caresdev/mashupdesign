@@ -54,12 +54,12 @@ p{
 }
 
 section{
-    margin-bottom: 8em;
-    padding: 3em;
+    margin-bottom: 5em;
+    padding: 2em;
 }
 
 section#portfolio .row{
-    margin: 7em 1em 1em 1em;
+    margin: 5em 1em 1em 1em;
 }
 
 @media screen and (max-width: 768px) {
@@ -72,14 +72,14 @@ section#portfolio .row{
 
 @media screen and (min-width: 992px) {
     section{
-        margin-bottom: 10em;
+        margin-bottom: 8em;
+        padding: 2em;
     }
 
     section#portfolio .row{
-        margin-top: 10em;
+        margin-top: 8em;
     }
 }
-
 
 .portfolio-img, .portfolio-img-container{
     width: 160px;
@@ -181,7 +181,7 @@ section#portfolio .row{
 	object-fit: cover;
 }
 
-.step-text{
+.guide-text{
     width: 100%;
     max-width: 100px;
     word-wrap: break-word;
@@ -192,7 +192,7 @@ section#portfolio .row{
 
 @media screen and (max-width: 992px) {
     section#guide .col-lg-3{
-        margin-bottom: 6em;
+        margin-top: 5em;
     }
 }
 
@@ -201,12 +201,7 @@ section#portfolio .row{
 
 @media screen and (max-width: 992px) {
     section#plans .col-lg-3{
-        margin-top: 7em;
-    }
-
-    section#plans{
-        padding-left: 2em;
-        padding-right: 2em;
+        margin-top: 5em;
     }
 }
 
@@ -215,24 +210,18 @@ section#portfolio .row{
 /* Contact Section */
 @media screen and (max-width: 992px) {
     section#contact .col-lg-5{
-        margin-bottom: 3em;
-    }
-
-    section#contact{
-        padding-left: 2em;
-        padding-right: 2em;
-        
+        margin-top: 6em;
     }
 
     section#contact .row{
         justify-content: center;
     }
 
-    h1{
+    section#contact h1, section#contact p{
         text-align: center;
-        padding-bottom: 2em;
     }
 }
+
 
 @media screen and (max-width: 380px) {
     .calendly-inline-widget{
