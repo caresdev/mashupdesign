@@ -38,15 +38,11 @@ p{
 
 
 /* Carousel */
-.c-container{
-    height: 100vh;
-}
+.carousel-item, .carousel-item img{
+    height: 50vh;
+    object-fit: contain;
 
-.c-img{
-    object-fit: cover;
-    height: 100%;
 }
-
 
 
 
@@ -62,7 +58,6 @@ p{
 section#portfolio .row{
     margin: 5em 1em 1em 1em;
 }
-
 
 section h1{
     margin-bottom: 2em;
