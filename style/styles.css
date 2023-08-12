@@ -39,9 +39,15 @@ p{
 
 /* Carousel */
 .carousel-item, .carousel-item img{
-    height: 50vh;
+    height: 60vh;
     object-fit: contain;
+}
 
+@media screen and (min-width: 768px) {
+    .carousel-item, .carousel-item img{
+        height: 100vh;
+        object-fit: cover;
+    }
 }
 
 
